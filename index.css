@@ -1,0 +1,81 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(131, 233, 236);
+}
+#container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#agentcard {
+    width: 20%;
+    height: 20%;
+    margin: 30px;
+    border: 3px solid rgb(57, 9, 248);
+    border-radius: 30px;
+    padding-bottom: 0;
+    min-width: 450px;
+    min-height: auto;
+    background-color:rgb(201, 220, 237);
+    -webkit-box-shadow:0px 0px 19px 1px rgba(45, 62, 255, 0.9);
+    -moz-box-shadow: 0px 0px 19px 1px rgba(132, 45, 255, 0.9);
+    box-shadow: 0px 0px 19px 1px rgba(244, 45, 255, 0.9);
+}
+
+#sec {
+    display: flex;
+    flex-direction: row;
+}
+
+#name {
+    color: purple;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#boldp {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+#line {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+
+#desc {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#img {
+    border-radius: 30px;
+    height: 200px;
+    width: auto;
+    margin-right: 20px;
+}
+
+#top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+#searchbar {
+    width: 350px;
+    height: 24px;
+    border-radius: 30px;
+    border: 1px solid purple;
+    padding: 5px;
+
+}
